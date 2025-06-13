@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fafafa;
+    color: #444;
+}
+
+h1 {
+    background-color: #a3c4f3;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Menú centrado con flexbox */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #d8e2dc;
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul li {
+    margin: 0 15px; /* espacio entre los items */
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #f4acb7;
+    color: white;
+    border-radius: 5px;
+}
+
+section {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+p {
+    font-size: 20px;
+    color: #666;
+}
+
+ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #444;
+}
+
+/* Estilo para los cuadros de libros */
+.libros-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.libro {
+    background-color: #e3f2fd;
+    border: 1px solid #b3e5fc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.libro h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.descargar {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4db6ac;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.descargar:hover {
+    background-color: #00897b;
+}
